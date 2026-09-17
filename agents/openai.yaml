@@ -1,0 +1,14 @@
+interface:
+  display_name: dog folder icon
+  short_description: Turn a real pet photo or breed description into a consistent
+    minimalist dog-face folder icon, and create twelve activity variants as independent
+    transparent PNGs for Mac/Windows.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
