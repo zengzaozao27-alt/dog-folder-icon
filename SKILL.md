@@ -2,12 +2,20 @@
 name: dog-folder-icon
 description: Turn a pet photo or breed request into an integrated dog-shaped folder icon and twelve consistent activity variants.
 ---
-# Dog Folder Icon — v1.4.3 integrated-front fix
+# Dog Folder Icon — v1.4.4 reference alignment
 
 ## Short requests and reference loading
 Accept a pet photo plus “帮我做一套文件夹图标”, “给金毛做一套”, or a named state without requiring a long prompt. A set means twelve separate files; one unspecified icon means daily. Reuse an available same-pet approved master.
 
-BEFORE drawing, actually VIEW the supplied pet photo and the approved visual references. In the complete ZIP, `references/approved-style.jpg` is the approved six-icon screenshot and STYLE authority; `references/approved-full-color-six.webp` and `references/example-<state>.webp` are color/composition examples; `references/approved-black-dog-base.png` is a character reference ONLY for that exact black dog. Do not substitute the reference dog's identity for the user's pet. In installations without these exact files, use only genuinely available user-approved references and disclose missing ones; never pretend they were loaded. A raster reference is NOT an editable vector master. User photo supplies identity ONLY: coat distribution, markings, ear shape, facial proportions. Discard camera-angle, head-turn and posture distortions, not genuine asymmetric markings.
+BEFORE drawing, actually VIEW the supplied pet photo and ALL THREE bundled visual references below. Resolve each path relative to this SKILL.md; filenames are exact, including spaces and Chinese characters.
+
+- [Style standard](references/style-standard.png): approved style screenshot; use for the flat visual style and folder proportions.
+- [Variant sheet](references/variant-sheet.png): activity composition inspiration; do not copy its sheet layout as the deliverable.
+- [Additional reference — 2026-09-18](<references/ChatGPT Image 2026年9月18日 20_48_22.png>): user-approved additional visual reference uploaded on September 18. Load it alongside the other two references and use it within the fixed visual grammar and integrated-front requirements below.
+
+These three files are the bundled reference set. Supply the actual photo and these references to the image-generation/editing tool; reading filenames or describing images without viewing them does not count. If a file cannot be loaded, disclose the missing reference; never pretend it was used. Do not require reference files from a separate ZIP that are not bundled here.
+
+The user's photo controls pet identity; reference dogs do not. Use the references for visual style and composition, and reuse an approved SAME-PET daily master for consistent geometry across states. Explicit newer user instructions take precedence; otherwise keep the fixed visual grammar and P0 geometry requirements below when examples differ. A raster reference is NOT an editable vector master. User photo supplies identity ONLY: coat distribution, markings, ear shape, facial proportions. Discard camera-angle, head-turn and posture distortions, not genuine asymmetric markings.
 
 ## HARD capability gate
 Check whether you can actually inspect the photo/references AND pass them to an image-generation/editing tool AND export genuine transparent PNGs; alternatively, whether you have an approved EDITABLE vector master for THIS EXACT pet and can edit/export it. If neither path works, STOP and explain. Never silently replace generation with hand-coded SVG, generic breed art, another pet, HTML/CSS or a contact sheet. Never claim reference use or verification that did not occur.
